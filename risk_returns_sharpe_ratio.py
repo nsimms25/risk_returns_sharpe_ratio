@@ -10,8 +10,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Reading in the data
-stock_data = pd.read_csv('datasets/stock_data.csv', parse_dates=['Date'], index_col='Date').dropna()
-benchmark_data = pd.read_csv('datasets/benchmark_data.csv', parse_dates=['Date'], index_col='Date').dropna()
+stock_data = pd.read_csv('stock_data.csv', parse_dates=['Date'], index_col='Date').dropna()
+benchmark_data = pd.read_csv('benchmark_data.csv', parse_dates=['Date'], index_col='Date').dropna()
 
 # Display summary for stock_data (Uncomment for information)
 # print('Stocks\n')
