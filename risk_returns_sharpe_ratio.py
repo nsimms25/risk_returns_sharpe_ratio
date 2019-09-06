@@ -1,7 +1,6 @@
 """
 Python project to analyze Sharpe Ratio of different stocks.
 
-IPython Notebook is available under risk_returns_sharpe_ratio.ipynb
 """
 
 # Importing required modules
